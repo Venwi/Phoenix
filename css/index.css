@@ -8,8 +8,17 @@
 body {
   min-height: 75rem;
 /*  min-width: 0rem;*/
-background-color: greenyellow;
+ background-image: url('../brand5.png'); 
+ background-repeat: no-repeat;
+ background-size: cover;
+/*background-color: black;*/
 
+}
+
+#navContainer, footer, #ff {
+  background-image: url('../brand5.png'); 
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .bd-placeholder-img {
@@ -105,7 +114,7 @@ a {
 /*ART CONTAINER*/
 #art {
   background-color: #292b2c;
-  color: white
+  color: white;
   height: auto;
   width: calc(47.08% );
   margin-right: auto;
@@ -334,7 +343,7 @@ footer  {
 
 
 /*BETWEEN 768PX AND 789PX*/
-@media(min-width: 768px) and (max-width: 789px)
+@media(min-width: 769px) and (max-width: 789px)
 {
   .btn{
     width: 2.8rem;
@@ -372,7 +381,7 @@ footer  {
 
 
 /*BELOW MEDIUM SCREEN*/
-@media(max-width: 767px){
+@media(max-width: 768px){
 #yt {
 
     margin-left: auto;
